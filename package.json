@@ -1,0 +1,24 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "fetching weather info using nodejs library express.js",
+  "main": "weather.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.1",
+    "node": "^13.10.1",
+    "nodemon": "^2.0.2",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "router": "^1.3.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "weather.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
