@@ -15,3 +15,7 @@ You can install these modules using npm install.
 To run the application , connect your server to any port of your choice eg 3000 or 8080 and you are ready to go.
 Then run using npm start or nodemon weather.js or node weather.js.
 After running the application .All you need is to enter the place/city of your choice on the browser.
+
+## RESULTS
+After running the application you will be directed to a page like(index.ejs_webpage) in the browser where you will enter a city/place of your choice around the world as shown in (index.ejs_query1_image and index.ejs_query2_image).
+To get the weather conditions of that place, click on "get weather" button  and the results  will be displayed as shown in (index.ejs_results1_image and index.ejs_results2_image).
