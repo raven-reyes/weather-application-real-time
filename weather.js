@@ -27,7 +27,7 @@ router.post('/', function (req, res) {
       return res.render('index', {weather: null, error: 'error, please try again'});
     }
 
-  let weatherText = `It's temperature = ${weather.current.temperature} degrees celcius,
+  let weatherText = `Its temperature = ${weather.current.temperature} degrees celcius,
    humidity = ${weather.current.humidity}HA, 
    cloud cover = ${weather.current.cloudcover}%, 
    wind_speed = ${weather.current.wind_speed} km/h,
